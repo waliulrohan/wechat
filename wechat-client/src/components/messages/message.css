@@ -1,0 +1,20 @@
+.others-message{
+    display: flex;
+    justify-content: flex-start;
+    background-color: antiquewhite;
+        margin: 10px;
+        padding: 10px;
+        border-radius: 20px 20px 20px 0px ;
+        align-self: flex-start;
+}
+.my-message {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(149, 230, 56);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px 20px 0px 20px;
+    align-self: flex-end;
+    height: fit-content;
+}
+

@@ -1,0 +1,63 @@
+.login-page-container{
+  
+    background-color: rgb(133, 181, 223);
+    height: 98vh;
+    width: 98vw;
+    border-radius: 20px;
+ 
+  display: flex;
+}
+.login-sidebar{
+    flex: .3;
+    background-color: white;
+    margin: 15px;
+    border-radius: 7px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.login-area{
+    flex: .7;
+    background-color: white;
+    margin: 10px;
+    border-radius: 7px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.login-btn{
+  background-color: rgb(133, 181, 223);
+  border: 0px;
+   margin-top: -35px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.login-btn:hover{
+  background-color:  rgb(80, 144, 201);
+}
+.newUser{
+  border-radius: 4px;
+    background-color: rgba(124, 163, 175, 0.452);
+  border: 0px;
+   
+    padding: 5px;
+    cursor: pointer;
+}
+.newUser:hover{
+    background-color: rgba(124, 163, 175, 0.747);
+}
+.login-sb-logo{
+  width: 100%;
+}
+@media only screen and (max-width: 550px) {
+
+}
+
+
+
